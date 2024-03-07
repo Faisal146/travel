@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+    font-family: "Signika Negative", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+
+.container {
+    max-width: 1150px;
+    margin: auto;
+}
+
+
+.nav {
+    padding: 40px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav .logo img {}
+
+.nav .logo h1 {
+    font-size: 37px;
+
+}
+
+.logo span {
+    color: rgb(209, 138, 5);
+}
+
+.nav .container {
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav .menu {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    font-size: 20px;
+
+}
+
+.navOpen {
+    transform: scaleY(1) !important;
+}
+
+
+
+.nav .menu ul {}
+
+.nav .menu li {
+    list-style: none;
+}
+
+.nav .icon {
+    display: none;
+}
+
+.home {}
+
+.home .container {
+    background: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.521)), url(img/Group\ 13\ \(1\)\ \(1\).png);
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+
+.home h1 {
+    padding-top: 150px;
+    font-size: 62px;
+}
+
+.home p {
+    font-size: 19px;
+    padding: 20px 0;
+    width: 599px;
+    margin: auto;
+}
+
+.finder {
+    /* margin: auto; */
+}
+
+.finder form {
+    background: #ffffff75;
+    padding: 12px;
+    border-radius: 10px;
+    width: 783px;
+    margin: auto;
+}
+
+.finder form input {
+    padding: 16px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+}
+
+
+
+.popular {
+    padding: 80px 0;
+}
+
+.popular .container {}
+
+.popular .left {
+    width: 58%;
+    padding-right: 35px;
+    color: gray;
+}
+
+.popular .left h1 {
+    color: black;
+    padding-bottom: 12px;
+    font-size: 39px;
+}
+
+.popular .left p {}
+
+.popular .left ul {
+    padding-left: 21px;
+}
+
+.popular .left ul li {}
+
+.popular .left ul li {}
+
+.popular .left p {
+    padding: 11px 0px;
+}
+
+.popular .btn {
+    font-size: 23px;
+    color: white;
+    padding: 10px 28px;
+    border-radius: 10px;
+    margin-top: 11px;
+}
+
+.btn {
+    font-size: 20px;
+    color: white;
+    padding: 10px 28px;
+    border-radius: 10px;
+    margin-top: 11px;
+    background-color: red;
+    border: none;
+}
+
+.popular .right {}
+
+.popular .right img {
+    /* width: 576px; */
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 45px;
+    margin-bottom: 11px;
+}
+
+.title p {
+    margin: auto;
+    width: 598px;
+    padding-bottom: 50px;
+}
+
+.places {}
+
+.places .container {}
+
+.places .aa {}
+
+.places .aaa {
+    padding: 8px 0;
+}
+
+.places .aaaa {}
+
+.places .placePic {
+    position: relative;
+
+
+}
+
+.places .placePic img {
+    transition: 0.6s;
+}
+
+.places .placePic img:hover {
+    filter: blur(8px)
+}
+
+.places .placePic img {}
+
+.places .placePic p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 23px;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+
+}
+
+.places .flex {
+    gap: 13px
+}
+
+.why {
+    padding: 65px;
+}
+
+.why .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.why .card {
+    width: 48%;
+    background: #f6ebeb;
+    border-radius: 12px;
+    padding: 24px 42px;
+    border: 1px solid gray;
+}
+
+.why .card img {}
+
+
+.why .card h1 {
+    font-size: 29px;
+    padding: 11px 0;
+}
+
+.why .card p {
+    color: #746363;
+}
+
+.deals {}
+
+
+
+.deals .container {}
+
+.deals .cards {}
+
+.deals .card:nth-child(1) {
+    background: url(img/Group\ 39.png);
+}
+
+.deals .card:nth-child(2) {
+    background: url(img/Group\ 40.png);
+}
+
+.deals .card:nth-child(3) {
+    background: url(img/Group\ 39.png);
+}
+
+.deals .card:nth-child(2) .item {
+    left: 50px;
+}
+
+
+
+.deals .card {}
+
+.deals .card .item {
+    background: #ffffff8f;
+    width: 400px;
+    border-radius: 13px;
+    padding: 30px;
+    position: absolute;
+    right: 62px;
+    top: 54px;
+    backdrop-filter: blur(6px);
+}
+
+.deals .card .item-top {
+    display: flex;
+    gap: 34px;
+}
+
+.popular .left {
+
+    padding-right: 0px;
+
+}
+
+.deals .card .item-top div {}
+
+.deals .card h1 {
+    font-size: 27px;
+    margin-top: 20px;
+}
+
+.deals .card p {
+    font-size: 15px;
+    padding-top: 12px;
+}
+
+.deals .card {
+    margin: 23px 0;
+    border-radius: 20px;
+    height: 405px;
+    position: relative;
+}
+
+.deals .btn2 {
+    display: block;
+    margin: auto;
+}
+
+.blog {
+    padding: 65px 0;
+}
+
+.blog .title h1 {
+    font-size: 38px;
+    width: 400px;
+}
+
+.blog .title p {
+    padding-left: 0;
+    margin-left: 0;
+    width: 441px;
+    padding-bottom: 20px;
+    color: gray;
+}
+
+.blog .container {
+    justify-content: space-between;
+}
+
+.blog .left {}
+
+.blog .left ul {}
+
+.blog .left ul li {
+    width: 496px;
+    padding: 11px 0px;
+    margin-left: 20px;
+    /* padding-right: 68px; */
+}
+
+.blog .right {
+    width: 500px;
+}
+
+.blog .title {
+    text-align: left;
+}
+
+.news .news .container {}
+
+.news .left {
+    border: 2px solid #a1a1a1;
+    border-radius: 10px;
+    margin-right: 22px;
+    background: #b9a0a06b;
+    padding: 32px 33px;
+    width: 421px;
+}
+
+.news .left h1 {}
+
+.news .left p {
+    width: 236px;
+    padding: 11px 0;
+    color: #595555;
+}
+
+.news .left form {
+    border-top: 2px solid gray;
+    margin-top: 20px;
+    padding-top: 28px;
+    width: 314px;
+}
+
+.news .left form input {
+    width: 313px;
+    padding: 15px 20px;
+    font-size: 19px;
+    margin: 3px 0;
+    border: none;
+    border-radius: 13px;
+}
+
+.news .right {
+    position: relative;
+}
+
+.news .right img {}
+
+.news .discount-msg {
+    position: absolute;
+    bottom: 79px;
+    right: 26px;
+    background: white;
+    border-radius: 10px;
+    transform: rotate(-21deg);
+    padding: 14px;
+}
+
+.documents .container {
+    padding: 60px 0;
+}
+
+.documents .container .card {
+    background-color: #e8e5e5;
+    margin: 10px 10px;
+    padding: 30px 20px;
+    border-radius: 12px;
+}
+
+.documents .card p {
+    color: gray;
+    padding: 20px 0;
+}
+
+footer {
+    padding-top: 50px;
+    background-color: #bcb7b7;
+    margin-top: 70px;
+}
+
+footer .container {}
+
+footer .logo {
+    justify-content: center;
+}
+
+footer .logo img {}
+
+footer .logo h1 {}
+
+footer p {
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+footer .social img {
+    width: 35px;
+    margin: 5px;
+}

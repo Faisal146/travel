@@ -1,0 +1,182 @@
+@media (max-width: 600px) {
+
+    .container {
+        padding: 20px;
+    }
+
+    .home {
+        padding: 20px;
+    }
+
+    img {}
+
+    .logo h1 {
+        font-size: 25px !important;
+    }
+
+    .nav {
+        position: relative;
+    }
+
+    .nav .menu {
+        display: block;
+        position: absolute;
+        background: white;
+        right: 0;
+        top: 100%;
+        transform: scaleY(0);
+        transform-origin: top;
+        transition: .6s;
+    }
+
+
+    .nav .menu li {
+        padding: 14px 30px;
+    }
+
+    .nav .icon {
+        font-size: 24px;
+        display: block;
+    }
+
+    .finder input {
+        display: block;
+        width: 88%;
+        margin: 10px auto;
+
+    }
+
+    .finder form {
+        width: 90%;
+    }
+
+
+
+    .home h1 {
+        padding-top: 20px;
+        font-size: 38px;
+    }
+
+    .home .container {
+
+        height: 550px;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+
+    .popular .flex {
+        gap: 60px;
+        flex-direction: column;
+    }
+
+    .popular .left {
+        width: 100%;
+    }
+
+    .popular .right {
+        width: 100%;
+    }
+
+    .places .flex {
+        flex-direction: column;
+    }
+
+    .places .placePic {
+        position: relative;
+        height: 225px;
+        border-radius: 12px;
+        overflow: hidden;
+        /* border: rebeccapurple; */
+    }
+
+    .places .placePic img {
+        width: 100%;
+    }
+
+    .title h1 {
+        font-size: 30px;
+    }
+
+    .title p {
+        width: 100%;
+    }
+
+    .flex {
+        flex-wrap: wrap;
+    }
+
+    .why .card {
+        width: 100%;
+    }
+
+    .deals .card .item {
+        width: 86%;
+        right: 50%;
+        bottom: 16px;
+        transform: translate(50%, 0px);
+    }
+
+    .deals .card:nth-child(2) .item {
+        left: auto;
+    }
+
+    .deals .card {
+
+        height: 500px;
+
+    }
+
+    .blog .container {
+
+        gap: 40px;
+    }
+
+    .news .container.flex {
+        gap: 40px;
+    }
+
+    .home p {
+        width: 100%;
+    }
+
+    .news .left {
+
+        width: 100%;
+    }
+
+    .news .left form input {
+        width: 100%;
+    }
+
+    .news .left form {
+        width: 100%;
+    }
+
+    .blog .left ul li {
+        width: 100%;
+    }
+
+    .blog .left {
+        width: 100%;
+    }
+
+    .blog .title p {
+
+        width: 100%;
+
+    }
+
+    .news .left {
+
+        margin-right: 0px;
+
+    }
+
+    .nav {
+        padding: 0;
+    }
+
+}
